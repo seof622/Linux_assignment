@@ -1,0 +1,1 @@
+cmd_/home/os2017706111/os_lab/assign3/3.3/process_tracer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/os2017706111/os_lab/assign3/3.3/process_tracer.ko /home/os2017706111/os_lab/assign3/3.3/process_tracer.o /home/os2017706111/os_lab/assign3/3.3/process_tracer.mod.o ;  true

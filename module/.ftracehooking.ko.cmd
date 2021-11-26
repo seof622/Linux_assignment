@@ -1,0 +1,1 @@
+cmd_/home/os2017706111/os_lab/module/ftracehooking.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/os2017706111/os_lab/module/ftracehooking.ko /home/os2017706111/os_lab/module/ftracehooking.o /home/os2017706111/os_lab/module/ftracehooking.mod.o ;  true
