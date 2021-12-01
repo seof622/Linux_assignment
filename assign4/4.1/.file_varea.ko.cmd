@@ -1,0 +1,1 @@
+cmd_/home/os2017706111/os_lab/assing4/4.1/file_varea.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/os2017706111/os_lab/assing4/4.1/file_varea.ko /home/os2017706111/os_lab/assing4/4.1/file_varea.o /home/os2017706111/os_lab/assing4/4.1/file_varea.mod.o ;  true
